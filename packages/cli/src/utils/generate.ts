@@ -46,9 +46,9 @@ function createTmpFolder(basePath: string) {
 }
 
 /**
- * Prevents imports from @faststore/core from randomly conflicting
+ * Prevents imports from @faststore-b2b/core from randomly conflicting
  * where sometimes the package.json from the .faststore folder
- * took precedence over @faststore/core's package.json.
+ * took precedence over @faststore-b2b/core's package.json.
  */
 function filterAndCopyPackageJson(basePath: string) {
   const { coreDir, tmpDir } = withBasePath(basePath)
@@ -298,8 +298,7 @@ async function copyTheme(basePath: string) {
       try {
         copyFileSync(customTheme, tmpThemesCustomizationsFile)
         logger.log(
-          `${chalk.green('success')} - ${
-            storeConfig.theme
+          `${chalk.green('success')} - ${storeConfig.theme
           } theme has been applied`
         )
       } catch (err) {
@@ -307,10 +306,8 @@ async function copyTheme(basePath: string) {
       }
     } else {
       logger.info(
-        `${chalk.blue('info')} - The ${
-          storeConfig.theme
-        } theme was added to the config file but the ${
-          storeConfig.theme
+        `${chalk.blue('info')} - The ${storeConfig.theme
+        } theme was added to the config file but the ${storeConfig.theme
         }.scss file does not exist in the themes folder. Read more: https://www.faststore.dev/docs/themes/overview`
       )
     }
@@ -372,7 +369,7 @@ function checkDependencies(basePath: string, packagesToCheck: string[]) {
       logger.warn(
         `${chalk.yellow(
           'warning'
-        )} - Version mismatch detected for ${packageName}. 
+        )} - Version mismatch detected for ${packageName}.
           Core: ${coreVersion}, Customization: ${rootVersion}. Please align both versions to prevent issues`
       )
     }

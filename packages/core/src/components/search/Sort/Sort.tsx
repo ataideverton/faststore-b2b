@@ -1,5 +1,5 @@
-import { useSearch } from '@faststore/sdk'
-import { SelectField } from '@faststore/ui'
+import { useSearch } from '@faststore-b2b/sdk'
+import { SelectField } from '@faststore-b2b/ui'
 
 const OptionsMap = {
   price_desc: 'Price, descending',

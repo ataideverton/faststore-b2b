@@ -1,4 +1,4 @@
-import { useSearch } from '@faststore/sdk'
+import { useSearch } from '@faststore-b2b/sdk'
 import { gql } from '@generated'
 import {
   ClientManyProductsQueryQuery,

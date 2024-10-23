@@ -1,7 +1,7 @@
 import {
   BannerText as UIBannerText,
   BannerTextContent as UIBannerTextContent,
-} from '@faststore/ui'
+} from '@faststore-b2b/ui'
 
 export const BannerTextDefaultComponents = {
   BannerText: UIBannerText,

@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 
 import { useRouter } from 'next/router'
 
-import type { ImageGalleryProps as UIImageGalleryProps } from '@faststore/ui'
+import type { ImageGalleryProps as UIImageGalleryProps } from '@faststore-b2b/ui'
 import { useOverrideComponents } from 'src/sdk/overrides/OverrideContext'
 
 const ImageComponent = ({

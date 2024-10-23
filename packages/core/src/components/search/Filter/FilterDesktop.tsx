@@ -1,4 +1,4 @@
-import { setFacet, toggleFacet, useSearch } from '@faststore/sdk'
+import { setFacet, toggleFacet, useSearch } from '@faststore-b2b/sdk'
 
 import {
   Filter as UIFilter,
@@ -6,7 +6,7 @@ import {
   FilterFacetBooleanItem as UIFilterFacetBooleanItem,
   FilterFacetRange as UIFilterFacetRange,
   FilterFacets as UIFilterFacets,
-} from '@faststore/ui'
+} from '@faststore-b2b/ui'
 import type { Filter_FacetsFragment } from '@generated/graphql'
 import { useFormattedPrice } from 'src/sdk/product/useFormattedPrice'
 import { useFilter } from 'src/sdk/search/useFilter'

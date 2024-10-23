@@ -1,4 +1,4 @@
-import type { BreadcrumbProps as UIBreadcrumbProps } from '@faststore/ui'
+import type { BreadcrumbProps as UIBreadcrumbProps } from '@faststore-b2b/ui'
 import { memo } from 'react'
 
 import Link from 'src/components/ui/Link'

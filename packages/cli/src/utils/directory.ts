@@ -18,13 +18,13 @@ export const withBasePath = (basepath: string) => {
     return path.resolve(process.cwd(), basepath)
   }
 
-  /* 
-   * This will loop from the basepath until the process.cwd() looking for node_modules/@faststore/core
-   * 
+  /*
+   * This will loop from the basepath until the process.cwd() looking for node_modules/@faststore-b2b/core
+   *
    * If it reaches process.cwd() (or /, as a safeguard), without finding it, it will throw an exception
    */
   const getCorePackagePath = () => {
-    const coreFromNodeModules = path.join('node_modules', '@faststore', 'core')
+    const coreFromNodeModules = path.join('node_modules', '@faststore-b2b', 'core')
     const resolvedCwd = path.resolve(process.cwd())
 
     const parents: string[] = []
@@ -54,7 +54,7 @@ export const withBasePath = (basepath: string) => {
     userCMSDir: path.join(getRoot(), 'cms', 'faststore'),
     userLegacyStoreConfigFile: path.join(getRoot(), 'faststore.config.js'),
     userStoreConfigFile: path.join(getRoot(), 'discovery.config.js'),
-    
+
     tmpSeoConfig: path.join(tmpDir, 'next-seo.config.ts'),
     tmpFolderName,
     tmpDir,

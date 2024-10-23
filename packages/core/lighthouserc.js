@@ -1,4 +1,4 @@
-const lhConfig = require('@faststore/lighthouse').default
+const lhConfig = require('@faststore-b2b/lighthouse').default
 
 const { lighthouse: lh } = require('./discovery.config')
 

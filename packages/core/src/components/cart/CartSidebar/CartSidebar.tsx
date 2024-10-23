@@ -3,12 +3,12 @@ import {
   CartSidebar as UICartSidebar,
   CartSidebarFooter as UICartSidebarFooter,
   CartSidebarList as UICartSidebarList,
-} from '@faststore/ui'
+} from '@faststore-b2b/ui'
 
-import type { CartSidebarProps as UICartSidebarProps } from '@faststore/ui'
+import type { CartSidebarProps as UICartSidebarProps } from '@faststore-b2b/ui'
 
-import type { CurrencyCode, ViewCartEvent } from '@faststore/sdk'
-import { Icon, useFadeEffect, useUI } from '@faststore/ui'
+import type { CurrencyCode, ViewCartEvent } from '@faststore-b2b/sdk'
+import { Icon, useFadeEffect, useUI } from '@faststore-b2b/ui'
 import { Suspense, useCallback, useEffect, useMemo } from 'react'
 import { useCart } from 'src/sdk/cart'
 import { useCheckoutButton } from 'src/sdk/cart/useCheckoutButton'
@@ -27,7 +27,7 @@ function useViewCartEvent() {
   const { items, gifts, total } = useCart()
 
   const sendViewCartEvent = useCallback(() => {
-    import('@faststore/sdk').then(({ sendAnalyticsEvent }) => {
+    import('@faststore-b2b/sdk').then(({ sendAnalyticsEvent }) => {
       return sendAnalyticsEvent<ViewCartEvent>({
         name: 'view_cart',
         params: {

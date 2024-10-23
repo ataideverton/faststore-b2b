@@ -1,10 +1,10 @@
-import type { AddToCartEvent, CurrencyCode } from '@faststore/sdk'
+import type { AddToCartEvent, CurrencyCode } from '@faststore-b2b/sdk'
 import { useCallback } from 'react'
 
 import type { AnalyticsItem } from 'src/sdk/analytics/types'
 import type { CartItem } from 'src/sdk/cart'
 
-import { useUI } from '@faststore/ui'
+import { useUI } from '@faststore-b2b/ui'
 import { useSession } from '../session'
 import { cartStore } from './index'
 
@@ -22,7 +22,7 @@ export const useBuyButton = (item: CartItem | null) => {
         return
       }
 
-      import('@faststore/sdk').then(({ sendAnalyticsEvent }) => {
+      import('@faststore-b2b/sdk').then(({ sendAnalyticsEvent }) => {
         sendAnalyticsEvent<AddToCartEvent<AnalyticsItem>>({
           name: 'add_to_cart',
           params: {

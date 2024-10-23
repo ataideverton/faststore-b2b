@@ -4,7 +4,7 @@ import {
   LinkButton as UILinkButton,
   Skeleton as UISkeleton,
   Icon as UIIcon,
-} from '@faststore/ui'
+} from '@faststore-b2b/ui'
 
 import ProductCard from 'src/components/product/ProductCard'
 import FilterDesktop from 'src/components/search/Filter/FilterDesktop'

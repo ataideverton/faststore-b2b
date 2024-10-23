@@ -1,5 +1,5 @@
 import { useCallback } from 'react'
-import type { CurrencyCode, ViewItemListEvent } from '@faststore/sdk'
+import type { CurrencyCode, ViewItemListEvent } from '@faststore-b2b/sdk'
 
 import { useSession } from 'src/sdk/session'
 import type { ProductSummary_ProductFragment } from '@generated/graphql'
@@ -24,7 +24,7 @@ export const useViewItemListEvent = ({
   } = useSession()
 
   const sendViewItemListEvent = useCallback(() => {
-    import('@faststore/sdk').then(({ sendAnalyticsEvent }) => {
+    import('@faststore-b2b/sdk').then(({ sendAnalyticsEvent }) => {
       sendAnalyticsEvent<ViewItemListEvent<AnalyticsItem>>({
         name: 'view_item_list',
         params: {

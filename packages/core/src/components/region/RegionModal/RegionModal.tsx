@@ -2,7 +2,7 @@ import {
   Icon,
   RegionModalProps as UIRegionModalProps,
   useUI,
-} from '@faststore/ui'
+} from '@faststore-b2b/ui'
 import { useRef, useState } from 'react'
 
 import { sessionStore, useSession, validateSession } from 'src/sdk/session'

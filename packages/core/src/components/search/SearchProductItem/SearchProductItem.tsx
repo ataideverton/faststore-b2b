@@ -3,7 +3,7 @@ import {
   SearchProductItemContent as UISearchProductItemContent,
   SearchProductItemImage as UISearchProductItemImage,
   useSearch,
-} from '@faststore/ui'
+} from '@faststore-b2b/ui'
 
 import { Image } from 'src/components/ui/Image'
 import { useFormattedPrice } from 'src/sdk/product/useFormattedPrice'

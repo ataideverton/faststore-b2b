@@ -1,4 +1,4 @@
-import { isNotFoundError } from '@faststore/api'
+import { isNotFoundError } from '@faststore-b2b/api'
 import storeConfig from 'discovery.config'
 import type { GetStaticPaths, GetStaticProps } from 'next'
 

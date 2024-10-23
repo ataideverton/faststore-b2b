@@ -1,4 +1,4 @@
-import { Tiles as UITiles } from '@faststore/ui'
+import { Tiles as UITiles } from '@faststore-b2b/ui'
 
 import type { TilesProps } from '.'
 

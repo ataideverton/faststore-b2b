@@ -1,4 +1,4 @@
-import type { CurrencyCode, RemoveFromCartEvent } from '@faststore/sdk'
+import type { CurrencyCode, RemoveFromCartEvent } from '@faststore-b2b/sdk'
 import { useCallback } from 'react'
 
 import type { AnalyticsItem } from 'src/sdk/analytics/types'
@@ -20,7 +20,7 @@ export const useRemoveButton = (item: CartItem | null) => {
         return
       }
 
-      import('@faststore/sdk').then(({ sendAnalyticsEvent }) => {
+      import('@faststore-b2b/sdk').then(({ sendAnalyticsEvent }) => {
         sendAnalyticsEvent<RemoveFromCartEvent<AnalyticsItem>>({
           name: 'remove_from_cart',
           params: {

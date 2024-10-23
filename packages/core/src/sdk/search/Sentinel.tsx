@@ -1,4 +1,4 @@
-import { useSearch } from '@faststore/sdk'
+import { useSearch } from '@faststore-b2b/sdk'
 import { useEffect, useRef } from 'react'
 import { useInView } from 'react-intersection-observer'
 import type { NextRouter } from 'next/router'

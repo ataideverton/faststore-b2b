@@ -9,21 +9,37 @@
   ],
   "tasks": {
     "site#build": {
-      "dependsOn": ["^build"],
-      "env": ["BASE_SITE_URL"],
-      "outputs": [".next/**"]
+      "dependsOn": [
+        "^build"
+      ],
+      "env": [
+        "BASE_SITE_URL"
+      ],
+      "outputs": [
+        ".next/**"
+      ]
     },
     "build": {
-      "dependsOn": ["^build"],
-      "env": ["BASE_SITE_URL"],
-      "outputs": ["dist/**"]
+      "dependsOn": [
+        "^build"
+      ],
+      "env": [
+        "BASE_SITE_URL"
+      ],
+      "outputs": [
+        "dist/**"
+      ]
     },
     "test": {
-      "dependsOn": ["^build"]
+      "dependsOn": [
+        "^build"
+      ]
     },
     "lint": {},
     "start": {
-      "outputs": ["dist/**"]
+      "outputs": [
+        "dist/**"
+      ]
     },
     "size": {},
     "dev": {
@@ -32,14 +48,20 @@
     "dev:server": {
       "cache": false
     },
-    "@faststore/api#dev:graphql": {
-      "outputs": ["dist/**"]
+    "@faststore-b2b/api#dev:graphql": {
+      "outputs": [
+        "dist/**"
+      ]
     },
-    "@faststore/api#build:cjs": {
-      "outputs": ["dist/**"]
+    "@faststore-b2b/api#build:cjs": {
+      "outputs": [
+        "dist/**"
+      ]
     },
-    "@faststore/api#build:esm": {
-      "outputs": ["dist/**"]
+    "@faststore-b2b/api#build:esm": {
+      "outputs": [
+        "dist/**"
+      ]
     }
   }
 }

@@ -6,7 +6,7 @@ import {
   NewsletterContent as UINewsletterContent,
   NewsletterForm as UINewsletterForm,
   NewsletterHeader as UINewsletterHeader,
-} from '@faststore/ui'
+} from '@faststore-b2b/ui'
 
 import { NewsletterAddendum as UINewsletterAddendum } from 'src/components/ui/Newsletter'
 

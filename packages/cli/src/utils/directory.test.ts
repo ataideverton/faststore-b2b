@@ -107,7 +107,7 @@ describe('withBasePath as an arbitrary dir', () => {
       process.cwd = mockedCwd
       const { coreDir: coreDirWithBase } = withBasePath(basePath)
 
-      expect(pathsToMatch(coreDirWithBase, './src/__mocks__/store/node_modules/@faststore/core')).toBe(true)
+      expect(pathsToMatch(coreDirWithBase, './src/__mocks__/store/node_modules/@faststore-b2b/core')).toBe(true)
     })
 
     describe('when is in a monorepo', () => {
@@ -117,7 +117,7 @@ describe('withBasePath as an arbitrary dir', () => {
 
         const { coreDir: coreDirWithBase } = withBasePath(path.join(__dirname, '..', '__mocks__', 'monorepo', 'discovery'))
 
-        expect(pathsToMatch(coreDirWithBase, './src/__mocks__/monorepo/node_modules/@faststore/core')).toBe(true)
+        expect(pathsToMatch(coreDirWithBase, './src/__mocks__/monorepo/node_modules/@faststore-b2b/core')).toBe(true)
       })
     })
   })
@@ -179,13 +179,13 @@ describe('withBasePath as an arbitrary dir', () => {
   })
 
   describe('coreCMSDir', () => {
-    it('returns the path of the CMS dir on @faststore/core package', () => {
+    it('returns the path of the CMS dir on @faststore-b2b/core package', () => {
       const mockedCwd = jest.fn(() => { return './src/__mocks__/store' })
       process.cwd = mockedCwd
 
       const { coreCMSDir: coreCMSDirWithBase } = withBasePath(basePath)
 
-      expect(pathsToMatch(coreCMSDirWithBase, './src/__mocks__/store/node_modules/@faststore/core/cms/faststore')).toBe(true)
+      expect(pathsToMatch(coreCMSDirWithBase, './src/__mocks__/store/node_modules/@faststore-b2b/core/cms/faststore')).toBe(true)
     })
   })
 

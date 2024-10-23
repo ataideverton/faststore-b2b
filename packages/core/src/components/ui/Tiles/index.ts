@@ -1,5 +1,5 @@
 export { default } from './Tiles'
-export type { TilesProps } from '@faststore/ui'
+export type { TilesProps } from '@faststore-b2b/ui'
 
-export { Tile } from '@faststore/ui'
-export type { TileProps } from '@faststore/ui'
+export { Tile } from '@faststore-b2b/ui'
+export type { TileProps } from '@faststore-b2b/ui'

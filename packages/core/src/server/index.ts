@@ -5,17 +5,17 @@ import {
   useEngine,
   useExtendContext,
   useMaskedErrors,
-  useSchema
+  useSchema,
 } from '@envelop/core'
 import { useGraphQlJit } from '@envelop/graphql-jit'
 import { useParserCache } from '@envelop/parser-cache'
 import { useValidationCache } from '@envelop/validation-cache'
-import type { CacheControl, Maybe } from '@faststore/api'
+import type { CacheControl, Maybe } from '@faststore-b2b/api'
 import {
   getContextFactory,
   getResolvers,
-  isFastStoreError
-} from '@faststore/api'
+  isFastStoreError,
+} from '@faststore-b2b/api'
 import { loadFilesSync } from '@graphql-tools/load-files'
 import { makeExecutableSchema } from '@graphql-tools/schema'
 import type { TypeSource } from '@graphql-tools/utils'

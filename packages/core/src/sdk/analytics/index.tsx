@@ -1,5 +1,5 @@
-import type { AnalyticsEvent } from '@faststore/sdk'
-import { useAnalyticsEvent } from '@faststore/sdk'
+import type { AnalyticsEvent } from '@faststore-b2b/sdk'
+import { useAnalyticsEvent } from '@faststore-b2b/sdk'
 
 import storeConfig from '../../../discovery.config'
 

@@ -2,7 +2,7 @@ import {
   Button as UIButton,
   Icon as UIIcon,
   EmptyState as UIEmptyState,
-} from '@faststore/ui'
+} from '@faststore-b2b/ui'
 
 interface Props {
   /**

@@ -1,6 +1,6 @@
-import { Button as UIButton } from '@faststore/ui'
+import { Button as UIButton } from '@faststore-b2b/ui'
 
-import { Icon, useUI } from '@faststore/ui'
+import { Icon, useUI } from '@faststore-b2b/ui'
 import { useSession } from 'src/sdk/session'
 
 function RegionButton({ icon, label }: { icon: string; label: string }) {

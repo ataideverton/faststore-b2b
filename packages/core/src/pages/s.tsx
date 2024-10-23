@@ -3,13 +3,13 @@ import { NextSeo } from 'next-seo'
 import { useRouter } from 'next/router'
 import type { GetStaticProps } from 'next'
 
-import type { SearchState } from '@faststore/sdk'
+import type { SearchState } from '@faststore-b2b/sdk'
 import {
   formatSearchState,
   parseSearchState,
   SearchProvider,
-} from '@faststore/sdk'
-import { SROnly as UISROnly } from '@faststore/ui'
+} from '@faststore-b2b/sdk'
+import { SROnly as UISROnly } from '@faststore-b2b/ui'
 
 import { ITEMS_PER_PAGE } from 'src/constants'
 import { useApplySearchState } from 'src/sdk/search/state'

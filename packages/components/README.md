@@ -13,10 +13,10 @@
 </p>
 
 <div style="display: flex; justify-content: center; width: 100%">
-  <a href="https://www.npmjs.com/package/@faststore/components" style="padding: 0px 2px 0px 0px">
+  <a href="https://www.npmjs.com/package/@faststore-b2b/components" style="padding: 0px 2px 0px 0px">
     <img src="https://badge.fury.io/js/%40faststore%2Fui.svg" />
   </a>
-  <a href="https://bundlephobia.com/package/@faststore/components" style="padding: 0px 0px 0px 2px">
-    <img src="https://badgen.net/bundlephobia/dependency-count/@faststore/components" />
+  <a href="https://bundlephobia.com/package/@faststore-b2b/components" style="padding: 0px 0px 0px 2px">
+    <img src="https://badgen.net/bundlephobia/dependency-count/@faststore-b2b/components" />
   </a>
 </div>

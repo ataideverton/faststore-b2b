@@ -1,10 +1,10 @@
-import type { GiftProps } from '@faststore/ui'
+import type { GiftProps } from '@faststore-b2b/ui'
 import {
   Icon,
   Gift as UIGift,
   GiftContent as UIGiftContent,
   GiftImage as UIGiftImage,
-} from '@faststore/ui'
+} from '@faststore-b2b/ui'
 
 import { Image } from 'src/components/ui/Image'
 import type { CartItem as ICartItem } from 'src/sdk/cart'

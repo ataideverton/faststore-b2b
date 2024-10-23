@@ -1,4 +1,4 @@
-export * from '@faststore/components'
+export * from '@faststore-b2b/components'
 
 // Atoms
 export { default as TextArea } from './components/atoms/TextArea'

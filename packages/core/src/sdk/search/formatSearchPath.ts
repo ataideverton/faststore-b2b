@@ -1,5 +1,5 @@
-import type { SearchState } from '@faststore/sdk'
-import { formatSearchState, initSearchState } from '@faststore/sdk'
+import type { SearchState } from '@faststore-b2b/sdk'
+import { formatSearchState, initSearchState } from '@faststore-b2b/sdk'
 
 type FormatSearchPath = {
   term: string

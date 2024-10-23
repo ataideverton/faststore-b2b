@@ -9,7 +9,7 @@ import { useFormattedPrice } from 'src/sdk/product/useFormattedPrice'
 import Selectors from 'src/components/ui/SkuSelector'
 import AddToCartLoadingSkeleton from './AddToCartLoadingSkeleton'
 
-import { Icon as UIIcon, Label as UILabel, useUI } from '@faststore/ui'
+import { Icon as UIIcon, Label as UILabel, useUI } from '@faststore-b2b/ui'
 import { useOverrideComponents } from 'src/sdk/overrides/OverrideContext'
 
 interface ProductDetailsSettingsProps {

@@ -1,7 +1,7 @@
 import type { AnchorHTMLAttributes } from 'react'
 
-import { NavbarLinksListItem as UINavbarLinksListItem } from '@faststore/ui'
-import type { NavbarLinksProps as UINavbarLinksProps } from '@faststore/ui'
+import { NavbarLinksListItem as UINavbarLinksListItem } from '@faststore-b2b/ui'
+import type { NavbarLinksProps as UINavbarLinksProps } from '@faststore-b2b/ui'
 
 import Link from 'src/components/ui/Link'
 import RegionButton from 'src/components/region/RegionButton'

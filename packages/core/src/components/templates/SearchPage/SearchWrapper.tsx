@@ -1,5 +1,5 @@
 import { useRouter } from 'next/router'
-import { useSearch } from '@faststore/sdk'
+import { useSearch } from '@faststore-b2b/sdk'
 
 import type { SearchContentType } from 'src/server/cms'
 import type { SearchPageContextType } from 'src/pages/s'

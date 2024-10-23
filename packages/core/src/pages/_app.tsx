@@ -1,4 +1,4 @@
-import { UIProvider } from '@faststore/ui'
+import { UIProvider } from '@faststore-b2b/ui'
 import type { AppProps } from 'next/app'
 import Layout from 'src/Layout'
 import AnalyticsHandler from 'src/sdk/analytics'

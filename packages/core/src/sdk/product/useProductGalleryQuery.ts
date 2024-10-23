@@ -3,7 +3,7 @@ import { useQuery } from 'src/sdk/graphql/useQuery'
 import { useSession } from 'src/sdk/session'
 import { useLocalizedVariables } from './useLocalizedVariables'
 
-import { Facet } from '@faststore/sdk/dist/types'
+import { Facet } from '@faststore-b2b/sdk/dist/types'
 import type {
   ClientManyProductsQueryQueryVariables,
   ClientProductGalleryQueryQuery as Query,
@@ -81,7 +81,7 @@ export const useProductGalleryQuery = ({
   return useQuery<Query, Variables>(query, localizedVariables, {
     onSuccess: (data) => {
       if (data && term) {
-        import('@faststore/sdk').then(({ sendAnalyticsEvent }) => {
+        import('@faststore-b2b/sdk').then(({ sendAnalyticsEvent }) => {
           sendAnalyticsEvent<IntelligentSearchQueryEvent>({
             name: 'intelligent_search_query',
             params: {

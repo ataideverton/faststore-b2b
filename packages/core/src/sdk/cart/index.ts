@@ -1,5 +1,8 @@
-import type { Cart as SDKCart, CartItem as SDKCartItem } from '@faststore/sdk'
-import { createCartStore } from '@faststore/sdk'
+import type {
+  Cart as SDKCart,
+  CartItem as SDKCartItem,
+} from '@faststore-b2b/sdk'
+import { createCartStore } from '@faststore-b2b/sdk'
 import { useMemo } from 'react'
 
 import { gql } from '@generated'

@@ -1,6 +1,6 @@
-import { setFacet, toggleFacet, useSearch } from '@faststore/sdk'
+import { setFacet, toggleFacet, useSearch } from '@faststore-b2b/sdk'
 import { useEffect, useMemo, useReducer } from 'react'
-import type { IStoreSelectedFacet } from '@faststore/api'
+import type { IStoreSelectedFacet } from '@faststore-b2b/api'
 
 import type { Filter_FacetsFragment } from '@generated/graphql'
 

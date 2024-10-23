@@ -1,4 +1,4 @@
-import { isFastStoreError, stringifyCacheControl } from '@faststore/api'
+import { isFastStoreError, stringifyCacheControl } from '@faststore-b2b/api'
 import type { NextApiHandler, NextApiRequest } from 'next'
 
 import { execute } from '../../server'

@@ -39,7 +39,7 @@ import type {
   ShippingSimulationProps,
   SkeletonProps,
   SkuSelectorProps,
-} from '@faststore/ui'
+} from '@faststore-b2b/ui'
 
 import type {
   ComponentOverrideDefinition,

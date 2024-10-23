@@ -1,4 +1,4 @@
-import { useSearch } from '@faststore/sdk'
+import { useSearch } from '@faststore-b2b/sdk'
 import type { ServerCollectionPageQueryQuery } from '@generated/graphql'
 import deepmerge from 'deepmerge'
 import BannerNewsletter from 'src/components/sections/BannerNewsletter/BannerNewsletter'
