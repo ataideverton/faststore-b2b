@@ -1,10 +1,14 @@
 {
-  "extends": "@faststore/shared/tsconfig.json",
+  "extends": "@faststore-b2b/shared/tsconfig.json",
   "compilerOptions": {
     "outDir": "dist",
-    "types": ["@testing-library/jest-dom/jest-globals"]
+    "types": [
+      "@testing-library/jest-dom/jest-globals"
+    ]
   },
-  "include": ["src"],
+  "include": [
+    "src"
+  ],
   "exclude": [
     "src/**/*.test.ts",
     "src/**/*.test.tsx",

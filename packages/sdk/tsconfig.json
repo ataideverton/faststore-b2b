@@ -1,7 +1,10 @@
 {
-  "extends": "@faststore/shared/tsconfig.json",
+  "extends": "@faststore-b2b/shared/tsconfig.json",
   "compilerOptions": {
     "outDir": "dist"
   },
-  "include": ["src", "types"]
+  "include": [
+    "src",
+    "types"
+  ]
 }
