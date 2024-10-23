@@ -1,6 +1,6 @@
 {
   "name": "@faststore-b2b/sdk",
-  "version": "3.0.138",
+  "version": "3.0.139",
   "description": "Hooks for creating your next component library",
   "license": "MIT",
   "browserslist": "supports es6-module and not dead and last 2 version",
