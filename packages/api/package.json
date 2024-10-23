@@ -1,6 +1,6 @@
 {
   "name": "@faststore-b2b/api",
-  "version": "3.0.138",
+  "version": "3.0.139",
   "license": "MIT",
   "main": "dist/cjs/src/index.js",
   "typings": "dist/esm/src/index.d.ts",
