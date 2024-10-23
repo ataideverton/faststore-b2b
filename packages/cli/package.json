@@ -1,6 +1,6 @@
 {
   "name": "@faststore-b2b/cli",
-  "version": "3.0.139",
+  "version": "3.0.140",
   "description": "FastStore CLI",
   "author": "Emerson Laurentino @emersonlaurentino",
   "bin": {
@@ -17,7 +17,7 @@
   ],
   "dependencies": {
     "@antfu/ni": "^0.21.12",
-    "@faststore-b2b/core": "^3.0.139",
+    "@faststore-b2b/core": "^3.0.140",
     "@inquirer/prompts": "^5.1.2",
     "@oclif/core": "^1.16.4",
     "@oclif/plugin-help": "^5",
