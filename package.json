@@ -1,7 +1,6 @@
 {
-  "name": "faststore",
+  "name": "faststore-b2b",
   "description": "Digital commerce toolkit for frontend developers.",
-  "repository": "git@github.com:vtex/faststore.git",
   "license": "MIT",
   "private": true,
   "scripts": {
@@ -19,7 +18,7 @@
     "apps/*"
   ],
   "devDependencies": {
-    "@faststore/eslint-config": "^3.0.0",
+    "@faststore-b2b/eslint-config": "^3.0.0",
     "lerna": "^8.0.0",
     "prettier": "^3.1.0",
     "turbo": "^2.1.3"

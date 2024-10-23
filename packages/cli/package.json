@@ -1,5 +1,5 @@
 {
-  "name": "@faststore/cli",
+  "name": "@faststore-b2b/cli",
   "version": "3.0.135",
   "description": "FastStore CLI",
   "author": "Emerson Laurentino @emersonlaurentino",
@@ -9,7 +9,6 @@
   "homepage": "https://github.com/vtex/faststore",
   "license": "MIT",
   "main": "dist/index.js",
-  "repository": "vtex/faststore",
   "files": [
     "/bin",
     "/dist",
@@ -18,7 +17,7 @@
   ],
   "dependencies": {
     "@antfu/ni": "^0.21.12",
-    "@faststore/core": "^3.0.135",
+    "@faststore-b2b/core": "^3.0.135",
     "@inquirer/prompts": "^5.1.2",
     "@oclif/core": "^1.16.4",
     "@oclif/plugin-help": "^5",
@@ -32,8 +31,8 @@
     "path": "^0.12.7"
   },
   "devDependencies": {
-    "@faststore/eslint-config": "^3.0.135",
-    "@faststore/shared": "^3.0.135",
+    "@faststore-b2b/eslint-config": "^3.0.135",
+    "@faststore-b2b/shared": "^3.0.135",
     "@types/chai": "^4",
     "@types/degit": "^2.8.6",
     "@types/fs-extra": "^9.0.13",

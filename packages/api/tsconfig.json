@@ -1,9 +1,11 @@
 {
-  "extends": "@faststore/shared/tsconfig.json",
+  "extends": "@faststore-b2b/shared/tsconfig.json",
   "compilerOptions": {
     "outDir": "dist/esm",
     "resolveJsonModule": true,
     "moduleResolution": "Bundler"
   },
-  "include": ["src/**/*"]
+  "include": [
+    "src/**/*"
+  ]
 }
