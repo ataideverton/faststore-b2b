@@ -13,26 +13,26 @@
 </p>
 
 <div style="display: flex; justify-content: center; width: 100%">
-  <a href="https://www.npmjs.com/package/@faststore/sdk" style="padding: 0px 2px 0px 0px">
+  <a href="https://www.npmjs.com/package/@faststore-b2b/sdk" style="padding: 0px 2px 0px 0px">
     <img src="https://badge.fury.io/js/%40faststore%2Fui.svg" />
   </a>
-  <a href="https://bundlephobia.com/package/@faststore/sdk" style="padding: 0px 2px 0px 2px">
-    <img src="https://badgen.net/bundlephobia/minzip/@faststore/sdk" />
+  <a href="https://bundlephobia.com/package/@faststore-b2b/sdk" style="padding: 0px 2px 0px 2px">
+    <img src="https://badgen.net/bundlephobia/minzip/@faststore-b2b/sdk" />
   </a>
-  <a href="https://bundlephobia.com/package/@faststore/sdk" style="padding: 0px 2px 0px 2px">
-    <img src="https://badgen.net/bundlephobia/tree-shaking/@faststore/sdk" />
+  <a href="https://bundlephobia.com/package/@faststore-b2b/sdk" style="padding: 0px 2px 0px 2px">
+    <img src="https://badgen.net/bundlephobia/tree-shaking/@faststore-b2b/sdk" />
   </a>
-  <a href="https://bundlephobia.com/package/@faststore/sdk" style="padding: 0px 0px 0px 2px">
-    <img src="https://badgen.net/bundlephobia/dependency-count/@faststore/sdk" />
+  <a href="https://bundlephobia.com/package/@faststore-b2b/sdk" style="padding: 0px 0px 0px 2px">
+    <img src="https://badgen.net/bundlephobia/dependency-count/@faststore-b2b/sdk" />
   </a>
 </div>
 
 ## Installation
 
-From the command line in your project directory, run yarn add `@faststore/sdk`.
+From the command line in your project directory, run yarn add `@faststore-b2b/sdk`.
 
 ```cmd
-yarn add @faststore/sdk
+yarn add @faststore-b2b/sdk
 ```
 
 ## Usage
@@ -40,7 +40,7 @@ yarn add @faststore/sdk
 ```tsx
 import React, { Component } from 'react'
 
-import { useUI } from '@faststore/sdk'
+import { useUI } from '@faststore-b2b/sdk'
 
 function MyComponent {
   const { displayMinicart } = useUI()

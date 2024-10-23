@@ -10,7 +10,7 @@ import {
   NavbarRow as UINavbarRow,
   NavbarButtons as UINavbarButtons,
   IconButton as UIIconButton,
-} from '@faststore/ui'
+} from '@faststore-b2b/ui'
 
 import { ButtonSignIn } from 'src/components/ui/Button'
 

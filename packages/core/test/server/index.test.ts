@@ -76,7 +76,7 @@ const QUERIES = [
 const MUTATIONS = ['validateCart', 'validateSession', 'subscribeToNewsletter']
 
 describe('FastStore GraphQL Layer', () => {
-  describe('@faststore/api', () => {
+  describe('@faststore-b2b/api', () => {
     const nativeSchema = getMergedSchema()
 
     it('should return a valid GraphQL schema', async () => {

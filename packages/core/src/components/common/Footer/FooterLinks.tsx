@@ -4,7 +4,7 @@ import {
   AccordionItem as UIAccordionItem,
   AccordionPanel as UIAccordionPanel,
   List as UIList,
-} from '@faststore/ui'
+} from '@faststore-b2b/ui'
 import { useState } from 'react'
 
 import Link from 'src/components/ui/Link'

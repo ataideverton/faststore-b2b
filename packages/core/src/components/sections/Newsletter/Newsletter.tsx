@@ -2,7 +2,7 @@ import {
   NewsletterProps as UINewsletterProps,
   NewsletterAddendumProps as UINewsletterAddendumProps,
   NewsletterHeaderProps as UINewsletterHeaderProps,
-} from '@faststore/ui'
+} from '@faststore-b2b/ui'
 
 import UINewsletter from '../../ui/Newsletter'
 

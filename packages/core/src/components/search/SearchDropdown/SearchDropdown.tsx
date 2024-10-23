@@ -4,12 +4,12 @@ import {
   SearchAutoCompleteTerm as UISearchAutoCompleteTerm,
   SearchDropdown as UISearchDropdown,
   useSearch,
-} from '@faststore/ui'
+} from '@faststore-b2b/ui'
 
 import { SearchHistory } from '../SearchHistory'
 import { SearchTop } from '../SearchTop'
 
-import { SearchState } from '@faststore/sdk'
+import { SearchState } from '@faststore-b2b/sdk'
 import { ProductSummary_ProductFragment } from '@generated/graphql'
 import SearchProductItem from 'src/components/search/SearchProductItem'
 import { formatSearchPath } from 'src/sdk/search/formatSearchPath'

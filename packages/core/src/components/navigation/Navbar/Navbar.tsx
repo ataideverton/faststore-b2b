@@ -1,6 +1,6 @@
 import { useRef, useState, useCallback } from 'react'
 
-import { useUI, useScrollDirection, Icon as UIIcon } from '@faststore/ui'
+import { useUI, useScrollDirection, Icon as UIIcon } from '@faststore-b2b/ui'
 
 import type { SearchInputRef } from 'src/components/search/SearchInput'
 import SearchInput from 'src/components/search/SearchInput'

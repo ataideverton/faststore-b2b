@@ -14,14 +14,14 @@
 
 The FastStore Command Line Interface (CLI) is the main pre-configured tool for initializing, building and developing FastStore projects.
 
-Also the CLI is the responsible on keeping the stores up-to-date with the `@faststore/core` package and enables the cloud platform to understand the FastStore project.
+Also the CLI is the responsible on keeping the stores up-to-date with the `@faststore-b2b/core` package and enables the cloud platform to understand the FastStore project.
 
 ## Installation
 
 From the command line in your project directory, run:
 
 ```cmd
-npm install -g @faststore/cli
+npm install -g @faststore-b2b/cli
 ```
 
 <!-- usage -->

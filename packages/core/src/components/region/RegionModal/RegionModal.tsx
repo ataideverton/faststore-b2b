@@ -3,7 +3,7 @@ import {
   RegionModal as UIRegionModal,
   RegionModalProps as UIRegionModalProps,
   useUI,
-} from '@faststore/ui'
+} from '@faststore-b2b/ui'
 import { Suspense, useRef, useState } from 'react'
 
 import { sessionStore, useSession, validateSession } from 'src/sdk/session'

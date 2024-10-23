@@ -1,6 +1,6 @@
 import { HTMLAttributes } from 'react'
 
-import { SkuSelectorProps } from '@faststore/ui'
+import { SkuSelectorProps } from '@faststore-b2b/ui'
 import NextLink from 'next/link'
 import { Image } from '../Image'
 

@@ -1,6 +1,6 @@
 import path from 'path'
 import { writeFileSync } from 'fs-extra'
-import { getTypeDefs } from '@faststore/api'
+import { getTypeDefs } from '@faststore-b2b/api'
 import { printSchemaWithDirectives } from '@graphql-tools/utils'
 import { loadFilesSync } from '@graphql-tools/load-files'
 import { mergeTypeDefs } from '@graphql-tools/merge'

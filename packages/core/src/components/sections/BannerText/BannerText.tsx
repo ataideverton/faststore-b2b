@@ -1,7 +1,7 @@
 import {
   BannerTextProps as UIBannerTextProps,
   BannerTextContentProps as UIBannerTextContentProps,
-} from '@faststore/ui'
+} from '@faststore-b2b/ui'
 
 import { useOverrideComponents } from '../../../sdk/overrides/OverrideContext'
 import Section from '../Section'

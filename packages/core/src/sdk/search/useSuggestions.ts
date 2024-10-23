@@ -54,7 +54,7 @@ function useSuggestions(term: string) {
   const { data, error } = useQuery<Query, Variables>(query, variables, {
     onSuccess: (callbackData) => {
       if (callbackData && term) {
-        import('@faststore/sdk').then(({ sendAnalyticsEvent }) => {
+        import('@faststore-b2b/sdk').then(({ sendAnalyticsEvent }) => {
           sendAnalyticsEvent<IntelligentSearchQueryEvent>({
             name: 'intelligent_search_query',
             params: {

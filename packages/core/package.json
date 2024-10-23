@@ -28,7 +28,7 @@
     "lint": "next lint",
     "stylelint": "stylelint \"**/*.scss\"",
     "stylelint:fix": "stylelint \"**/*.scss\" --fix",
-    "postinstall": "node postinstall.js && (is-ci || (cd ../.. && husky install packages/core/.husky)) || echo Skipped postinstall step for @faststore/core",
+    "postinstall": "node postinstall.js && (is-ci || (cd ../.. && husky install packages/core/.husky)) || echo Skipped postinstall step for @faststore-b2b/core",
     "partytown": "partytown copylib ./public/~partytown"
   },
   "engines": {

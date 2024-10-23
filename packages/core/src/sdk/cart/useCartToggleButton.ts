@@ -1,6 +1,6 @@
 import { useCallback } from 'react'
 
-import { useUI } from '@faststore/ui'
+import { useUI } from '@faststore-b2b/ui'
 import { useCart } from './index'
 
 export const useCartToggleButton = () => {

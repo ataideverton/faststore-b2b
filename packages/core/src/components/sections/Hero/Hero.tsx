@@ -1,7 +1,7 @@
 import {
   HeroProps as UIHeroProps,
   HeroHeaderProps as UIHeroHeaderProps,
-} from '@faststore/ui'
+} from '@faststore-b2b/ui'
 import { ReactNode } from 'react'
 import { Image } from '../../../components/ui/Image'
 

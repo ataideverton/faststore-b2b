@@ -1,4 +1,4 @@
-import { Icon, OutOfStock as UIOutOfStock, useUI } from '@faststore/ui'
+import { Icon, OutOfStock as UIOutOfStock, useUI } from '@faststore-b2b/ui'
 import type { FormEvent } from 'react'
 import { useState } from 'react'
 

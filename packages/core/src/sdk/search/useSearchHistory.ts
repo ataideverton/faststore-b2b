@@ -1,4 +1,4 @@
-import { createStore } from '@faststore/sdk'
+import { createStore } from '@faststore-b2b/sdk'
 
 import { useStore } from '../useStore'
 

@@ -1,14 +1,14 @@
-import type { SearchEvent, SearchState } from '@faststore/sdk'
+import type { SearchEvent, SearchState } from '@faststore-b2b/sdk'
 
 import type {
   SearchInputFieldProps as UISearchInputFieldProps,
   SearchInputFieldRef as UISearchInputFieldRef,
-} from '@faststore/ui'
+} from '@faststore-b2b/ui'
 import {
   SearchProviderContextValue,
   SearchInput as UISearchInput,
   SearchInputField as UISearchInputField,
-} from '@faststore/ui'
+} from '@faststore-b2b/ui'
 import { useRouter } from 'next/router'
 import type { CSSProperties } from 'react'
 import {
@@ -44,7 +44,7 @@ export type SearchInputRef = UISearchInputFieldRef & {
 }
 
 const sendAnalytics = async (term: string) => {
-  import('@faststore/sdk').then(({ sendAnalyticsEvent }) => {
+  import('@faststore-b2b/sdk').then(({ sendAnalyticsEvent }) => {
     sendAnalyticsEvent<SearchEvent>({
       name: 'search',
       params: { search_term: term },

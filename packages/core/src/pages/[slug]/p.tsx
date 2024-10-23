@@ -1,4 +1,4 @@
-import { isNotFoundError } from '@faststore/api'
+import { isNotFoundError } from '@faststore-b2b/api'
 import type { Locator } from '@vtex/client-cms'
 import deepmerge from 'deepmerge'
 import type { GetStaticPaths, GetStaticProps } from 'next'

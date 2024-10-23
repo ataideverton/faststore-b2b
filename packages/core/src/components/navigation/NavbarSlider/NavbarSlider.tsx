@@ -1,4 +1,4 @@
-import { useFadeEffect, useUI } from '@faststore/ui'
+import { useFadeEffect, useUI } from '@faststore-b2b/ui'
 import { Suspense } from 'react'
 
 import { ButtonSignInFallback } from 'src/components/ui/Button'

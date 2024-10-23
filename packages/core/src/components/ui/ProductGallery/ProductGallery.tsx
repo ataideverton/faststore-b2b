@@ -1,9 +1,9 @@
-import { useSearch } from '@faststore/sdk'
+import { useSearch } from '@faststore-b2b/sdk'
 import { NextSeo } from 'next-seo'
 import type { MouseEvent } from 'react'
 import { Suspense, lazy } from 'react'
 
-import { useUI } from '@faststore/ui'
+import { useUI } from '@faststore-b2b/ui'
 import Filter from 'src/components/search/Filter'
 import Sort from 'src/components/search/Sort'
 import FilterSkeleton from 'src/components/skeletons/FilterSkeleton'

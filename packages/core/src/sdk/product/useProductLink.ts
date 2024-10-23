@@ -1,4 +1,4 @@
-import type { CurrencyCode, SelectItemEvent } from '@faststore/sdk'
+import type { CurrencyCode, SelectItemEvent } from '@faststore-b2b/sdk'
 import { useCallback } from 'react'
 
 import type { ProductSummary_ProductFragment } from '@generated/graphql'
@@ -23,7 +23,7 @@ export const useProductLink = ({
   } = useSession()
 
   const onClick = useCallback(() => {
-    import('@faststore/sdk').then(({ sendAnalyticsEvent }) => {
+    import('@faststore-b2b/sdk').then(({ sendAnalyticsEvent }) => {
       sendAnalyticsEvent<SelectItemEvent<AnalyticsItem>>({
         name: 'select_item',
         params: {

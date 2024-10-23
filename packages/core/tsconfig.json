@@ -14,10 +14,10 @@
     "paths": {
       "src/*": ["src/*"],
       "@generated/*": ["@generated/*"],
-      "@faststore/core": ["index.ts"],
-      "@faststore/core/api": ["api/index.ts"],
-      "@faststore/core/experimental": ["src/experimental/index.ts"],
-      "@faststore/core/experimental/server": [
+      "@faststore-b2b/core": ["index.ts"],
+      "@faststore-b2b/core/api": ["api/index.ts"],
+      "@faststore-b2b/core/experimental": ["src/experimental/index.ts"],
+      "@faststore-b2b/core/experimental/server": [
         "src/experimental/server/index.ts"
       ]
     },

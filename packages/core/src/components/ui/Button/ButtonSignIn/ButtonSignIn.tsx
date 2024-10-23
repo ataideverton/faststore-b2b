@@ -1,4 +1,4 @@
-import { Icon, LinkButton } from '@faststore/ui'
+import { Icon, LinkButton } from '@faststore-b2b/ui'
 
 import { useSession } from 'src/sdk/session'
 

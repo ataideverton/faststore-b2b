@@ -1,4 +1,4 @@
-import type { AnalyticsEvent } from '@faststore/sdk'
+import type { AnalyticsEvent } from '@faststore-b2b/sdk'
 
 import handleSearchEvent from './search'
 

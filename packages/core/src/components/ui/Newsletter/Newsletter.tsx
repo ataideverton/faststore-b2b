@@ -1,8 +1,8 @@
 import { useRef } from 'react'
 import type { FormEvent } from 'react'
 
-import { useUI } from '@faststore/ui'
-import type { InputFieldProps } from '@faststore/ui'
+import { useUI } from '@faststore-b2b/ui'
+import type { InputFieldProps } from '@faststore-b2b/ui'
 
 import { useNewsletter } from 'src/sdk/newsletter/useNewsletter'
 import { useOverrideComponents } from 'src/sdk/overrides/OverrideContext'

@@ -2,7 +2,7 @@ import {
   ProductCard as UIProductCard,
   ProductCardContent as UIProductCardContent,
   ProductCardImage as UIProductCardImage,
-} from '@faststore/ui'
+} from '@faststore-b2b/ui'
 import { memo, useMemo } from 'react'
 
 import { gql } from '@generated'

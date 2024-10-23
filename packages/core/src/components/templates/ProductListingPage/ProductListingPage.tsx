@@ -1,9 +1,9 @@
-import type { SearchState } from '@faststore/sdk'
+import type { SearchState } from '@faststore-b2b/sdk'
 import {
   formatSearchState,
   parseSearchState,
   SearchProvider,
-} from '@faststore/sdk'
+} from '@faststore-b2b/sdk'
 import { BreadcrumbJsonLd, NextSeo } from 'next-seo'
 import { useRouter } from 'next/router'
 import { useMemo } from 'react'

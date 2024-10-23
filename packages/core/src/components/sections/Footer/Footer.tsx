@@ -1,5 +1,5 @@
-import { PaymentMethods as UIPaymentMethods } from '@faststore/ui'
-import type { PaymentMethodsProps as UIPaymentMethodProps } from '@faststore/ui'
+import { PaymentMethods as UIPaymentMethods } from '@faststore-b2b/ui'
+import type { PaymentMethodsProps as UIPaymentMethodProps } from '@faststore-b2b/ui'
 
 import Section from '../Section'
 import UIFooter, {

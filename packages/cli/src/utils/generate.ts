@@ -45,9 +45,9 @@ function createTmpFolder(basePath: string) {
 }
 
 /**
- * Prevents imports from @faststore/core from randomly conflicting
+ * Prevents imports from @faststore-b2b/core from randomly conflicting
  * where sometimes the package.json from the .faststore folder
- * took precedence over @faststore/core's package.json.
+ * took precedence over @faststore-b2b/core's package.json.
  */
 function filterAndCopyPackageJson(basePath: string) {
   const { coreDir, tmpDir } = withBasePath(basePath)
@@ -297,8 +297,7 @@ async function copyTheme(basePath: string) {
       try {
         copyFileSync(customTheme, tmpThemesCustomizationsFile)
         console.log(
-          `${chalk.green('success')} - ${
-            storeConfig.theme
+          `${chalk.green('success')} - ${storeConfig.theme
           } theme has been applied`
         )
       } catch (err) {
@@ -306,10 +305,8 @@ async function copyTheme(basePath: string) {
       }
     } else {
       console.info(
-        `${chalk.blue('info')} - The ${
-          storeConfig.theme
-        } theme was added to the config file but the ${
-          storeConfig.theme
+        `${chalk.blue('info')} - The ${storeConfig.theme
+        } theme was added to the config file but the ${storeConfig.theme
         }.scss file does not exist in the themes folder. Read more: https://www.faststore.dev/docs/themes/overview`
       )
     }
@@ -371,7 +368,7 @@ function checkDependencies(basePath: string, packagesToCheck: string[]) {
       console.warn(
         `${chalk.yellow(
           'warning'
-        )} - Version mismatch detected for ${packageName}. 
+        )} - Version mismatch detected for ${packageName}.
           Core: ${coreVersion}, Customization: ${rootVersion}. Please align both versions to prevent issues`
       )
     }
@@ -396,28 +393,28 @@ function validateAndInstallMissingDependencies(basePath: string) {
   const { userDir, userStoreConfigFile } = withBasePath(basePath)
 
   if (!existsSync(userStoreConfigFile)) {
-    return 
+    return
   }
 
   const userStoreConfig = require(userStoreConfigFile)
   const userPackageJson = require(path.join(userDir, 'package.json'))
 
-  const missingDependencies: Array<{ feature: string, dependencies: string[] }> = [] 
+  const missingDependencies: Array<{ feature: string, dependencies: string[] }> = []
 
-  if(userStoreConfig.experimental.preact) { 
+  if (userStoreConfig.experimental.preact) {
     missingDependencies.push({
       feature: 'Preact',
       dependencies: ['preact@10.23.1', 'preact-render-to-string@6.5.8']
     })
   }
- 
+
   missingDependencies.forEach(({ feature, dependencies }) => {
     const dependenciesToInstall = dependencies.filter((dependency) => {
       const dependencyName = dependency.split('@')[0]
       return !userPackageJson.dependencies[dependencyName]
     })
 
-    if(dependenciesToInstall.length > 0) {
+    if (dependenciesToInstall.length > 0) {
       const spinner = ora(`Installing ${feature} missing dependencies\n`).start()
 
       installDependencies({
@@ -427,7 +424,8 @@ function validateAndInstallMissingDependencies(basePath: string) {
       })
 
       spinner.stop()
-    }})
+    }
+  })
 }
 
 export async function generate(options: GenerateOptions) {

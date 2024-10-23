@@ -9,7 +9,7 @@ import {
   QuantitySelector as UIQuantitySelector,
   ImageGalleryViewer as UIImageGalleryViewer,
   ImageGallery as UIImageGallery,
-} from '@faststore/ui'
+} from '@faststore-b2b/ui'
 
 import LocalImageGallery from 'src/components/ui/ImageGallery'
 import LocalShippingSimulation from 'src/components/ui/ShippingSimulation/ShippingSimulation'

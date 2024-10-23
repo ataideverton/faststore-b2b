@@ -2,8 +2,11 @@ import { forwardRef, useMemo } from 'react'
 import type { Ref, AnchorHTMLAttributes } from 'react'
 import NextLink from 'next/link'
 import type { LinkProps as FrameworkLinkProps } from 'next/link'
-import { Link as UILink } from '@faststore/ui'
-import type { LinkProps as UILinkProps, LinkElementType } from '@faststore/ui'
+import { Link as UILink } from '@faststore-b2b/ui'
+import type {
+  LinkProps as UILinkProps,
+  LinkElementType,
+} from '@faststore-b2b/ui'
 
 export type LinkProps<T extends LinkElementType = 'a'> = UILinkProps<T> &
   FrameworkLinkProps &

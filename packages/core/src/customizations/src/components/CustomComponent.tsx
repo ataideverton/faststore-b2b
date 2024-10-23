@@ -1,4 +1,4 @@
-import { ProductTitle as UIProductTitle } from '@faststore/ui'
+import { ProductTitle as UIProductTitle } from '@faststore-b2b/ui'
 
 export interface CustomComponentProps {
   name: string

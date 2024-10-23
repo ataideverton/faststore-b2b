@@ -1,5 +1,5 @@
-import type { Session } from '@faststore/sdk'
-import { createSessionStore } from '@faststore/sdk'
+import type { Session } from '@faststore-b2b/sdk'
+import { createSessionStore } from '@faststore-b2b/sdk'
 import { useMemo } from 'react'
 
 import { gql } from '@generated'

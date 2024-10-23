@@ -1,4 +1,4 @@
-import { Icon as UIIcon, List as UIList } from '@faststore/ui'
+import { Icon as UIIcon, List as UIList } from '@faststore-b2b/ui'
 
 import Link from 'src/components/ui/Link'
 

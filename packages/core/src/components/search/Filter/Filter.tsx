@@ -1,4 +1,4 @@
-import { useUI } from '@faststore/ui'
+import { useUI } from '@faststore-b2b/ui'
 import type { Filter_FacetsFragment } from '@generated/graphql'
 import { Suspense } from 'react'
 
