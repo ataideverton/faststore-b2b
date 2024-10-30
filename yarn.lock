@@ -1058,9 +1058,9 @@
   dependencies:
     fast-deep-equal "^3.1.3"
 
-"@faststore-b2b/api@^3.0.135":
+"@faststore/api@^3.0.135":
   version "3.0.135"
-  resolved "https://registry.yarnpkg.com/@faststore-b2b/api/-/api-3.0.135.tgz#b452d228128350f648058d262ee3052962fa32f4"
+  resolved "https://registry.yarnpkg.com/@faststore/api/-/api-3.0.135.tgz#b452d228128350f648058d262ee3052962fa32f4"
   integrity sha512-CdXLHld6QJOvT4wzC4MJTU3RknYxPkz7FDTOXZBP3i6JaqLFi6pvBsrlkz0S7vpbuChbd57YB3lf/gbTxNnTlQ==
   dependencies:
     "@envelop/on-resolve" "^4.1.1"
@@ -1078,14 +1078,14 @@
     p-limit "^3.1.0"
     sanitize-html "^2.11.0"
 
-"@faststore-b2b/components@^3.0.135":
+"@faststore/components@^3.0.135":
   version "3.0.135"
-  resolved "https://registry.yarnpkg.com/@faststore-b2b/components/-/components-3.0.135.tgz#795eced4af1a1bd17865c0e36e19f92fe0416526"
+  resolved "https://registry.yarnpkg.com/@faststore/components/-/components-3.0.135.tgz#795eced4af1a1bd17865c0e36e19f92fe0416526"
   integrity sha512-CC6v2N4nxP1b/2AM7W3eDaUY56e5MsULkLCqiSj+IWZuPR32WSEyqQz/lQ6VQIInBMQswYguDezOSigHzC9bcg==
 
-"@faststore-b2b/eslint-config@^3.0.135":
+"@faststore/eslint-config@^3.0.135":
   version "3.0.135"
-  resolved "https://registry.yarnpkg.com/@faststore-b2b/eslint-config/-/eslint-config-3.0.135.tgz#a8352918470c34b1bd7af1aca6fb0b5c72383b79"
+  resolved "https://registry.yarnpkg.com/@faststore/eslint-config/-/eslint-config-3.0.135.tgz#a8352918470c34b1bd7af1aca6fb0b5c72383b79"
   integrity sha512-JWVnsdoVXXX2Q8VGv2ITGkirF1BvuQ+5qtBakH5nv1Z647lI1cxLsJ+9k3Rrvcv/uuvX3Bjn37fYqtxQMN/M3g==
   dependencies:
     eslint "7.32.0"
@@ -1095,19 +1095,19 @@
     eslint-plugin-react "7.31.8"
     next "13.5.1"
 
-"@faststore-b2b/sdk@^3.0.135":
+"@faststore/sdk@^3.0.135":
   version "3.0.135"
-  resolved "https://registry.yarnpkg.com/@faststore-b2b/sdk/-/sdk-3.0.135.tgz#1755df9f347f0254723d73ec77c0fe5837004b44"
+  resolved "https://registry.yarnpkg.com/@faststore/sdk/-/sdk-3.0.135.tgz#1755df9f347f0254723d73ec77c0fe5837004b44"
   integrity sha512-Eq8EVitloNYMab40gPBEoI10E2jL4KH/J78MO0eq0TokZsNK80x1ShgeBilDa1wUtV4rKvj7p6mmAbNrGMgyAw==
   dependencies:
     idb-keyval "^5.1.3"
 
-"@faststore-b2b/ui@^3.0.135":
+"@faststore/ui@^3.0.135":
   version "3.0.135"
-  resolved "https://registry.yarnpkg.com/@faststore-b2b/ui/-/ui-3.0.135.tgz#74a5a7fa2549fa5aa1cd87a29727d1c04a0485f5"
+  resolved "https://registry.yarnpkg.com/@faststore/ui/-/ui-3.0.135.tgz#74a5a7fa2549fa5aa1cd87a29727d1c04a0485f5"
   integrity sha512-4rCG5B+geNn9/yjlVCRk/7k45mp/1H3ByPYxXZisLyK8iMaXh3LjwHRDhL6HK1E3+2KuJggGOP7833nTcHcQgw==
   dependencies:
-    "@faststore-b2b/components" "^3.0.135"
+    "@faststore/components" "^3.0.135"
     include-media "^1.4.10"
     modern-normalize "^1.1.0"
     react-swipeable "^7.0.0"
